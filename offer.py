@@ -1,5 +1,4 @@
 from abc import ABC, abstractmethod
-from item import Item
 
 
 class Offer(ABC):
@@ -7,7 +6,7 @@ class Offer(ABC):
   A base class for offers.
 
   Methods:
-    apply_offer(cart: str, item: Item) -> int:
+    apply_offer(cart: str) -> int:
       Applies the offer to the cart and returns the total price after the offer.
   """
   
