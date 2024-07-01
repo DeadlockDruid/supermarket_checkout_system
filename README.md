@@ -12,7 +12,7 @@ This project is a supermarket checkout system that calculates the total price of
 
 ```bash
 git clone https://github.com/anshu1992/supermarket_checkout_system.git
-cd supermarket_checkout
+cd supermarket_checkout_system
 ```
 
 ### 2. Build the Docker Image
