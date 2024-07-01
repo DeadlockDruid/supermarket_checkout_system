@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "name": "A",
+      "unit_price": 50,
+      "special_offers": [
+        {
+          "quantity_required": 3,
+          "discounted_price": 130
+        }
+      ]
+    },
+    {
+      "name": "B",
+      "unit_price": 30,
+      "special_offers": [
+        {
+          "quantity_required": 2,
+          "discounted_price": 45
+        }
+      ]
+    },
+    {
+      "name": "C",
+      "unit_price": 20,
+      "special_offers": []
+    },
+    {
+      "name": "D",
+      "unit_price": 15,
+      "special_offers": []
+    }
+  ]
+}
