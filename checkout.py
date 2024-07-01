@@ -15,9 +15,9 @@ class Checkout:
   Methods:
     add_item(item_name: str):
       Adds an item to the cart.
-    calculate_best_offer(item: Item) -> float:
+    calculate_best_offer(item: Item) -> int:
       Calculates the best offer for an item in the cart.
-    calculate_total() -> float:
+    calculate_total() -> int:
       Calculates the total price of the items in the cart.
   """
 

@@ -9,10 +9,10 @@ class SpecialOffer(Offer):
 
   Attributes:
     item (Item): The item to which the offer applies.
-    offers (List[Tuple[int, float]]): A list of tuples, each containing the quantity required and the discounted price.
+    offers (List[Tuple[int, int]]): A list of tuples, each containing the quantity required and the discounted price.
   
   Methods:
-    apply_offer(cart: dict, item: Item) -> float:
+    apply_offer(cart: dict, item: Item) -> int:
       Applies the special offer to the cart item and returns the total price after the offer.
   """
   
@@ -22,7 +22,7 @@ class SpecialOffer(Offer):
 
     Parameters:
       item (Item): The item to which the offer applies.
-      offers (List[Tuple[int, float]]): A list of tuples, each containing the quantity required and the discounted price.
+      offers (List[Tuple[int, int]]): A list of tuples, each containing the quantity required and the discounted price.
     """
     
     self.item = item
@@ -37,7 +37,7 @@ class SpecialOffer(Offer):
       cart (dict): The cart as a dictionary of item names to their counts.
 
     Returns:
-      float: The total price after the offer is applied. Applies the best one if multiple offers are present.
+      int: The total price after the offer is applied. Applies the best one if multiple offers are present.
     """
 
     item_name = self.item.name

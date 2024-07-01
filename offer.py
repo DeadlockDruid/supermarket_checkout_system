@@ -7,7 +7,7 @@ class Offer(ABC):
   A base class for offers.
 
   Methods:
-    apply_offer(cart: str, item: Item) -> float:
+    apply_offer(cart: str, item: Item) -> int:
       Applies the offer to the cart and returns the total price after the offer.
   """
   
@@ -20,6 +20,6 @@ class Offer(ABC):
       cart (dict): The cart as a dictionary of item names to thier counts.
     
     Returns:
-      float: The total price after the offer is applied.
+      int: The total price after the offer is applied.
     """
     pass

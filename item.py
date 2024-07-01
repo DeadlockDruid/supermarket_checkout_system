@@ -5,7 +5,7 @@ class Item:
 
     Attributes:
       name (str): The name of the item.
-      unit_price (float): The price per unit of the item.
+      unit_price (int): The price per unit of the item.
     """
     self.name = name
     self.unit_price = unit_price
